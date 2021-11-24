@@ -222,5 +222,10 @@ footer{
     .desktop{
         display:none;
     }
+    
+    .projeto-single:hover{
+    transform:scale(1);
+    transition: 1s;
+}
 
 }
