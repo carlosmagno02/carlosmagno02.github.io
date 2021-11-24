@@ -59,16 +59,10 @@ header{
 }
 
 /* About */
-.overlay{
-    position: absolute;
-    background-color:rgba(0, 0, 0, 0.6);
-    width: 100%;
-    top:0px;
-    left: 0;
-}
+
 .about{
-    padding: 240px 2%;
-    background-image: url(img/bg1.jpg);
+    padding: 200px 2%;
+    background-image: url(img/bg2.jpg);
     background-size: cover;
     background-position: center;
     /* height: 100vh; */
@@ -224,6 +218,34 @@ footer{
 
     .desktop{
         display:none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .mobile i{
+        font-size:24px;
+    }
+
+    .mobile ul{
+        background-color: rgb(238, 238, 238);
+        width: 50%;
+        top: 105px;
+        display:none;
+        position: absolute;
+        border-radius: 10px;
+        right: 2%;
+        list-style: none;
+        box-shadow: -4px 4px 8px #000;
+    }
+
+    .mobile a{
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        border:1px solid #000;
     }
 
     .projeto-single:hover{
