@@ -62,24 +62,23 @@ header{
 .overlay{
     position: absolute;
     background-color:rgba(0, 0, 0, 0.6);
-    height:100vh;
     width: 100%;
     top:0px;
     left: 0;
 }
 .about{
-    padding: 0 2%;
+    padding: 240px 2%;
     background-image: url(img/bg1.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .about .container{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 100%; */
+    /* justify-content: center; */
     position: relative;
     color: #fff;
     z-index: 9;
