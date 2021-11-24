@@ -68,7 +68,7 @@ header{
     left: 0;
 }
 .about{
-    padding: 30vh 2%;
+    padding: 0 2%;
     background-image: url(img/bg1.jpg);
     background-size: cover;
     background-position: center;
@@ -76,6 +76,10 @@ header{
 }
 
 .about .container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
     position: relative;
     color: #fff;
     z-index: 9;
@@ -222,10 +226,5 @@ footer{
     .desktop{
         display:none;
     }
-    
-    .projeto-single:hover{
-    transform:scale(1);
-    transition: 1s;
-}
 
 }
