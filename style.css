@@ -64,8 +64,11 @@ header{
     background-color:rgba(0, 0, 0, 0.6);
     height:100vh;
     width: 100%;
+    top:0px;
+    left: 0;
 }
 .about{
+    padding: 30vh 2%;
     background-image: url(img/bg1.jpg);
     background-size: cover;
     background-position: center;
@@ -73,11 +76,9 @@ header{
 }
 
 .about .container{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
     color: #fff;
+    z-index: 9;
 }
 
 .about h1{
