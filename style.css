@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.mobile{
+    display: none;
+}
+/* Boot Css */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    padding:0 2%;
+    margin: 0 auto;
+}
+
+/* Header */
+header{
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.623);
+    z-index: 9999;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 3px solid #fff;
+}
+
+.desktop li{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+.name{
+    font-size:20px;
+}
+
+.desktop a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* About */
+.overlay{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.6);
+    height:100vh;
+    width: 100%;
+}
+.about{
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.about .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.about h1{
+    font-size:36px;
+    font-weight: 400;
+}
+
+.about p:nth-of-type(1){
+    margin: 10px 0;
+}
+
+.about p{
+    padding:10px 0;
+    font-size:24px;
+    font-weight:100;
+}
+
+.habilidades h4{
+    font-size:32px;
+    font-weight: 400;
+    margin:30px 0;
+}
+
+.box-conhecimentos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-conhecimentos i{
+    font-size:40px;
+}
+
+/* portfolio */
+section.portfolio{
+    padding:120px 0;
+}
+
+.portfolio h2{
+    padding-bottom: 30px;
+}
+
+.box-projeto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projeto-single{
+    width: 30%;
+    margin: 25px 0;
+    color: #000;
+    text-decoration: none;
+    border-radius:10px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.568);
+    padding:5px;
+    transition: 1s;
+}
+
+.projeto-single:hover{
+    transform:scale(1.1);
+    transition: 1s;
+}
+
+.projeto-single hr{
+    margin:5px 0;
+}
+
+.projeto-single p{
+    font-size:18px
+}
+
+.projeto-single img{
+    border-radius:10px 10px 0 0;
+    width: 100%;
+}
+
+/* Contact */
+section.contact{
+    padding:120px 2%;
+    background-image: url(img/bg-contato.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.contact .container{
+    background-color: rgba(160, 160, 160, 0.63);
+    border-radius:10px;
+    padding:15px ;
+    width: 50%;
+    box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.6);
+}
+
+.box-redes{
+    display: flex;
+    margin: 20px 0;
+}
+
+.box-redes a{
+    margin: 0 10px;
+    font-size:24px;
+    color:#fff;
+    text-decoration: none;
+}
+
+.box-redes a i{
+    padding-right: 10px;
+}
+
+footer{
+    height:40px;
+    text-align: center;
+    font-size:18px;
+    color:#fff;
+    background-color:rgba(0, 0, 0);
+    line-height:40px;
+}
+
+@media screen and (max-width: 768px){
+    .projeto-single{
+        width: 100%;
+    }
+    .contact .container{
+        width: 100%;
+    }
+
+    .conhecimento-single{
+        width: 30%;
+    }
+    .box-redes a{
+        margin: 0 10px;
+        font-size:18px;
+        color:#fff;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .desktop{
+        display:none;
+    }
+
+}
