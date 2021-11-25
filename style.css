@@ -258,4 +258,9 @@ footer{
         transform:scale(1);
     }
 
+    .box-redes a{
+        display:flex;
+        flex-direction: column;
+    }
+
 }
