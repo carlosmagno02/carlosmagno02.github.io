@@ -14,15 +14,13 @@ $(function () {
         }
     })
     
-    $('.mobile ul a').on('click', function () {
+    $('nav a').on('click', function () {
         var href = $(this).attr('href')
         var offSetTop = $(href).offset().top;
-
         $('.mobile ul').slideToggle()
         $('html,body').animate({ 'scrollTop': offSetTop })
         $('.barra').removeClass('fa-times')
         $('.barra').addClass('fa-bars')
-
         return false
     })
 
