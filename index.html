@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,12 @@
     <title>Carlos Magno</title>
     <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -35,7 +40,8 @@
     <section id="about" class="about">
         <div class="container">
             <h1>Seja Bem-Vindo,<br> Eu sou Carlos Magno</h1>
-            <p>Web designer e Desenvolvedor Front-End, formado em desenvolvimento de Sistemas e em Multimidia no Senai de Informática, apaixonado na criação de sites e sistemas, focado no front-end</p>
+            <p>Web designer e Desenvolvedor Front-End, formado em desenvolvimento de Sistemas e em Multimidia no Senai
+                de Informática, apaixonado na criação de sites e sistemas, focado no front-end</p>
             <div class="habilidades">
                 <h4>Habilidades e Conhecimentos:</h4>
                 <div class="box-conhecimentos">
@@ -70,33 +76,33 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <h2>Portfólio</h2>
-            <div class="box-projeto">
-                <a target="_blank" href="https://advocacia-example.netlify.app/" class="projeto-single">
+            <div class="box-projeto" >
+                <a target="_blank" href="https://advocacia-example.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/advocacia.png" alt="">
                     <hr>
                     <p>Site institucional - Advocacia</p>
                 </a>
-                <a target="_blank" href="https://kingtattos.netlify.app/" class="projeto-single">
+                <a target="_blank" href="https://kingtattos.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/tatto.png" alt="">
                     <hr>
                     <p>Site institucional - Estudio de Tatuagem</p>
                 </a>
-                <a target="_blank" href="https://barbearia-1.netlify.app/" class="projeto-single">
+                <a target="_blank" href="https://barbearia-1.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/barbearia.png" alt="">
                     <hr>
                     <p>Site institucional - Barbearia</p>
                 </a>
-                <a target="_blank" href="https://urban-green.netlify.app/" class="projeto-single">
+                <a target="_blank" href="https://urban-green.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/urban.png" alt="">
                     <hr>
                     <p>Landing Page - Evento</p>
                 </a>
-                <a target="_blank" href="https://dankicode.netlify.app/" class="projeto-single">
+                <a target="_blank" href="https://dankicode.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/danki.png" alt="">
                     <hr>
                     <p>Landing Page - Info Produto</p>
                 </a>
-                <a target="_blank" href="https://sos-calamidade.netlify.app/" class="projeto-single">
+                <a target="_blank" href="https://sos-calamidade.netlify.app/" class="projeto-single" data-aos-duration="1500" data-aos="fade-right">
                     <img src="img/sos.png" alt="">
                     <hr>
                     <p>Landing Page - App</p>
@@ -105,13 +111,15 @@
         </div>
     </section>
     <section id="contact" class="contact">
-        <div class="container">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
             <h2>Entre em contato Comigo</h2>
             <h3>Gostaria de mais informações ou de contratar meus serviços ?</h3>
-            <div class="box-redes">
+            <div class="box-redes" >
                 <a target="_blank" href="mailto:carlosmbr4@hotmail.com"><i class="far fa-envelope"></i>E-mail</a>
-                <a target="_blank" href="https://www.linkedin.com/in/carlos-magno-344aa0187/"><i class="fab fa-linkedin"></i>Linkedin</a>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511994160979"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+                <a target="_blank" href="https://www.linkedin.com/in/carlos-magno-344aa0187/"><i
+                        class="fab fa-linkedin"></i>Linkedin</a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511994160979"><i
+                        class="fab fa-whatsapp"></i>WhatsApp</a>
             </div>
         </div>
     </section>
@@ -120,5 +128,11 @@
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
