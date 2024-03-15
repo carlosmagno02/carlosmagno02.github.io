@@ -10,8 +10,13 @@
     margin: 0 auto;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 .start{
-    padding: 8.46rem 0;
+    padding: 8rem 0;
+    position: relative;
     text-transform: uppercase;
     background: radial-gradient(#4286f4, #373B44);
 }
@@ -108,4 +113,52 @@ footer{
     border-top: 1px solid #000;
     background-color: #28468d;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .start h1{
+        font-size: 64px;
+        line-height: 50px;
+    }
+    
+    .icons-port a{
+        font-size: 35px;
+    }
+    
+    .start p{
+        width: 60%;
+        margin-left: auto;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.692);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .start h1{
+        width: 100%;
+        font-size: 32px;
+        line-height: 30px;
+        padding: 2rem 0;
+    }
+
+    .icons-port a{
+        font-size: 24px;
+    }
+
+    .start p{
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .projeto{
+        width: 100%;
+    }
 }
